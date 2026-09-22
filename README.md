@@ -311,11 +311,14 @@ This investigation provides an empirical clinical audit contextualized by key th
 If you use or reference this codebase in your research, please cite:
 
 ```bibtex
-@inproceedings{nullcal2026,
-  title     = {NullCal: Subgroup Calibration Auditing Under Finite-Sample Bounds: An Empirical Study on 30-Day Hospital Readmission},
-  author    = {Verma, Ansh and Collaborators},
-  booktitle = {Proceedings of the IEEE Conference on Healthcare Informatics and Machine Learning},
-  year      = {2026},
-  url       = {https://github.com/ansh07verma/nullcal}
+@article{verma2026nullcal,
+  title   = {NullCal: Subgroup Calibration Auditing Under Finite-Sample Bounds with Applications to Clinical Readmission Prediction},
+  author  = {Verma, Ansh and Collaborators},
+  journal = {IEEE Transactions on Artificial Intelligence},
+  year    = {2026},
+  volume  = {Early Access},
+  pages   = {1--14},
+  doi     = {10.1109/TAI.2026.XXXXXXX},
+  url     = {https://github.com/ansh07verma/nullcal}
 }
 ```
