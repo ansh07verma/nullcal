@@ -1,0 +1,19 @@
+seed,attribute,group,n,positives,prevalence,meets_support,eligible_for_gap,reason
+0,race,Caucasian,52305,4807,0.09190325972660357,True,True,
+0,race,AfricanAmerican,12627,1095,0.08671893561416014,True,True,
+0,race,Unknown,1917,141,0.07355242566510173,True,False,non-demographic level
+0,race,Hispanic,1501,122,0.08127914723517655,True,True,
+0,race,Other,1149,79,0.06875543951261967,True,True,
+0,race,Asian,488,41,0.08401639344262295,True,True,
+0,age,[70-80),17749,1817,0.10237196461772494,True,True,
+0,age,[60-70),15688,1415,0.09019632840387558,True,True,
+0,age,[50-60),12351,880,0.07124929155533966,True,True,
+0,age,[80-90),11110,1199,0.10792079207920792,True,True,
+0,age,[40-50),6828,506,0.07410661980082016,True,True,
+0,age,[30-40),2692,188,0.06983655274888559,True,True,
+0,age,[90-100),1761,168,0.09540034071550256,True,True,
+0,age,[20-30),1121,83,0.07404103479036575,True,True,
+0,age,[10-20),534,26,0.04868913857677903,True,True,
+0,age,[0-10),153,3,0.0196078431372549,False,False,"insufficient support (n=153, pos=3)"
+0,gender,Female,37239,3365,0.09036225462552701,True,True,
+0,gender,Male,32748,2920,0.08916575058018811,True,True,

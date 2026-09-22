@@ -1,0 +1,6 @@
+attribute,group,n,positives,prevalence,meets_support,eligible_for_gap,reason
+race,Caucasian,10471,963,0.09196829338172094,True,True,
+race,AfricanAmerican,2496,228,0.09134615384615384,True,True,
+race,Hispanic,298,22,0.0738255033557047,False,False,"insufficient support (n=298, pos=22)"
+race,Other,248,16,0.06451612903225806,False,False,"insufficient support (n=248, pos=16)"
+race,Asian,105,7,0.06666666666666667,False,False,"insufficient support (n=105, pos=7)"

@@ -1,0 +1,33 @@
+name: Python Check
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.11"
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Verify imports and configurations
+      run: |
+        python -c "import config; from src import data_prep, metrics, nullcal, calib, experiment; print('All core modules imported successfully')"
+
+    - name: Test CLI interface
+      run: |
+        python run_all.py --help

@@ -1,0 +1,20 @@
+{
+  "n_encounters_raw": 101766,
+  "prevalence_raw": 0.11159915885462728,
+  "n_dropped_expired_hospice": 2423,
+  "n_dropped_invalid_gender": 3,
+  "n_dropped_repeat_encounters": 29353,
+  "n_patients": 69987,
+  "prevalence_final": 0.08980239187277637,
+  "constant_columns_dropped": [
+    "examide",
+    "citoglipton",
+    "glimepiride-pioglitazone"
+  ],
+  "n_train": 41992,
+  "n_cal": 13997,
+  "n_test": 13998,
+  "n_features_raw": 42,
+  "n_numeric": 8,
+  "n_categorical": 34
+}
